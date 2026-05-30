@@ -65,7 +65,7 @@ SPECIFIC_TIME_STEP = 0  # 0 uses the first timestep, None uses all timesteps fla
 
 # Try to import from train.py
 try:
-    from trian_delesomevaribles import (
+    from trian import (
         FullStackPredictor, NPZDataset, custom_collate,
         FEATURE_CONFIG, ADAPTER_TYPE, TEMPORAL_MODEL,
         ABLATION_CONFIG, ADAPTER_OUTPUT_DIM, ADAPTER_PATCH_DIM,
